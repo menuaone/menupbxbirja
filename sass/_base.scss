@@ -1,0 +1,22 @@
+/* Main */
+
+body{
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+a {
+    color: $black;
+    transition: color 0.2s ease-in;
+    &:hover {
+        color: $lgreen;
+    }
+}

@@ -108,7 +108,7 @@ legend {
 /* Main */
 body {
   margin: 0;
-  background-color: #fff;
+  background-color: lightgoldenrodyellow;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -121,11 +121,12 @@ body {
 
 a {
   color: #292929;
-  -webkit-transition: color 0.2s ease-in;
-  transition: color 0.2s ease-in;
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
 }
 a:hover {
   color: #9B2727;
+  font-weight: bold;
 }
 
 .head .h1 {
@@ -166,6 +167,8 @@ a:hover {
   margin-bottom: 30px;
 }
 .head p {
+  text-transform: uppercase;
+  font-weight: bold;
   margin-bottom: 15px;
 }
 .head .instpb {

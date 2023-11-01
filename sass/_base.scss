@@ -2,7 +2,7 @@
 
 body{
     margin: 0;
-    background-color: #fff;
+    background-color: lightgoldenrodyellow;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -11,12 +11,14 @@ body{
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 100px;
+    
 }
 
 a {
     color: $black;
-    transition: color 0.2s ease-in;
+    transition: color 0.2s linear;
     &:hover {
         color: $lgreen;
+        font-weight: bold;
     }
 }

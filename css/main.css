@@ -108,7 +108,7 @@ legend {
 /* Main */
 body {
   margin: 0;
-  background-color: lightgoldenrodyellow;
+  background-color: #BFA875;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -120,7 +120,7 @@ body {
 }
 
 a {
-  color: #292929;
+  color: #772E1C;
   -webkit-transition: color 0.2s linear;
   transition: color 0.2s linear;
 }
@@ -133,9 +133,14 @@ a:hover {
   margin-top: 20px;
   text-align: center;
   font-size: 35px;
-  color: #514F4F;
+  color: #772E1C;
   text-transform: uppercase;
   border: 1px solid #9B2727;
+}
+.head .h2 {
+  text-align: right;
+  font-size: 15px;
+  color: #216F44;
 }
 .head .logo-box {
   display: -webkit-box;
@@ -160,6 +165,8 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-shadow: 9px 3px 16px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 9px 3px 16px 4px rgba(0, 0, 0, 0.15);
 }
 .head .link-box {
   padding-top: 10px;
@@ -169,6 +176,7 @@ a:hover {
 .head p {
   text-transform: uppercase;
   font-weight: bold;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 .head .instpb {
